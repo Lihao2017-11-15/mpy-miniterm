@@ -1,3 +1,4 @@
+REM https://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@github.com/Lihao2017-11-15/mpy-miniterm.git
 REM @python mpy-miniterm.py /dev/tty.SLAB_USBtoUART --sync-dir src/ --delete
 @cd ../code_esp32_huawei/src/
 @for /f %%i in ('dir /b /l /s "*__pycache__*"') do rd "%%i" /S /Q 
