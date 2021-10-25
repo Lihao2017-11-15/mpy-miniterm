@@ -2,5 +2,5 @@ REM @python mpy-miniterm.py /dev/tty.SLAB_USBtoUART --sync-dir src/ --delete
 @cd ../code_esp32_huawei/src/
 @for /f %%i in ('dir /b /l /s "*__pycache__*"') do rd "%%i" /S /Q 
 @cd ../../mpy-miniterm
-@pause "°´ ctrl-T, ctrl-G ¿ªÊ¼£¬½áÊøºó°´ctrl-]ÍË³ö..."
+@pause "æŒ‰ ctrl-T, ctrl-G å¼€å§‹ï¼Œç»“æŸåæŒ‰ctrl-]é€€å‡º..."
 @python mpy-miniterm.py COM30 --sync-dir ../code_esp32_huawei/src/ --delete
